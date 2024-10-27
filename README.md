@@ -1,8 +1,25 @@
-# React + Vite
+# PassOP - Web Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassOP is a simple and secure web-based password manager with a beautiful UI to store, manage, and protect your passwords for various websites. It allows you to save website credentials and easily copy or edit them as needed, ensuring convenience and security.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Password Storage**: Save site name, username, and password for each entry.
+- **Password Visibility Toggle**: Easily switch between showing and hiding passwords.
+- **Copy to Clipboard**: Quickly copy website URLs, usernames, or passwords to the clipboard.
+- **Edit & Delete**: Modify or delete saved credentials as needed.
+- **Data Persistence**: All passwords are stored in the browser's local storage, ensuring data availability across sessions.
+- **Real-time Feedback**: Uses toast notifications to confirm actions such as saving, copying, and deletion.
+
+## Tech Stack
+
+- **Frontend**: React, React Icons, Toastify for notifications, and `uuid` for unique ID generation.
+- **Styling**: Custom CSS, styled with green tones to match the theme.
+- **Browser Storage**: Utilizes LocalStorage for data persistence.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/PassOP.git
+   cd PassOP
